@@ -2,7 +2,7 @@
 
 <!-- Copyright 2018 Max Sprauer -->
 
-<head>                                                                                                        3
+<head>
     <title>Day 10: All the Stars in Motion</title>
     <script src="jquery-3.3.1.js"></script>
     <link rel="stylesheet" type="text/css" href="stars.css">
@@ -13,6 +13,8 @@
         <canvas id="canvas">
             Your browser does not support the HTML5 canvas tag.
         </canvas>
+        <br>
+        <i>Photo by <a href="https://www.pexels.com/photo/blue-universe-956981/">Felix Mittermeier</a></i>
     </center>
 
     <script type="application/javascript">
@@ -31,9 +33,12 @@
 
         moveStars(FIRST_FRAME);
 
-        var animTimerId = setTimeout(function() {
-            window.requestAnimationFrame(drawFrame);
-        }, DELAY_MS);
+        $(window).on("load", function() {
+console.log("load");
+            setTimeout(function() {
+                window.requestAnimationFrame(drawFrame);
+            }, DELAY_MS);
+        });
 
         function moveStars(iter)
         {
@@ -148,7 +153,11 @@
                             points.push(point);
                         }
                     });
-            }});
+                 },
+                 error: function(jqXHR, textStatus, errorThrown) {
+                        alert('Failed to load input.txt');
+                 },
+            });
 
             return points;
         }
