@@ -1,0 +1,256 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "4525fc5b-b82b-43e5-a574-435632274117",
+    "sha256": "5324da68ede209a16ac69a38e8cd29cee4d754434a041166cda3a1f5e0b24566",
+    "created": "2023-09-26T21:20:59.394Z",
+    "duration": 17.566313,
+    "channels": 1,
+    "models": ["f4c1fe8a-5b06-4c42-ae4a-b4b6bb652f9f"],
+    "model_info": {
+      "f4c1fe8a-5b06-4c42-ae4a-b4b6bb652f9f": {
+        "name": "2-ea-nova",
+        "version": "2023-08-08.3",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "yep i said it before and i'll say it again life moves pretty fast you don't stop and look around once in a while you could miss it",
+            "confidence": 0.99143434,
+            "words": [
+              {
+                "word": "yep",
+                "start": 5.92,
+                "end": 6.42,
+                "confidence": 0.99908626,
+                "speaker": 0,
+                "speaker_confidence": 0.70654297
+              },
+              {
+                "word": "i",
+                "start": 7.2549996,
+                "end": 7.415,
+                "confidence": 0.75224644,
+                "speaker": 0,
+                "speaker_confidence": 0.70654297
+              },
+              {
+                "word": "said",
+                "start": 7.415,
+                "end": 7.495,
+                "confidence": 0.9615506,
+                "speaker": 0,
+                "speaker_confidence": 0.70654297
+              },
+              {
+                "word": "it",
+                "start": 7.495,
+                "end": 7.895,
+                "confidence": 0.999263,
+                "speaker": 0,
+                "speaker_confidence": 0.70654297
+              },
+              {
+                "word": "before",
+                "start": 7.895,
+                "end": 8.135,
+                "confidence": 0.85561395,
+                "speaker": 0,
+                "speaker_confidence": 0.70654297
+              },
+              {
+                "word": "and",
+                "start": 8.135,
+                "end": 8.215,
+                "confidence": 0.99923337,
+                "speaker": 0,
+                "speaker_confidence": 0.70654297
+              },
+              {
+                "word": "i'll",
+                "start": 8.215,
+                "end": 8.455,
+                "confidence": 0.99951065,
+                "speaker": 0,
+                "speaker_confidence": 0.70654297
+              },
+              {
+                "word": "say",
+                "start": 8.455,
+                "end": 8.615,
+                "confidence": 0.99312156,
+                "speaker": 0,
+                "speaker_confidence": 0.70654297
+              },
+              {
+                "word": "it",
+                "start": 8.615,
+                "end": 8.715,
+                "confidence": 0.99802494,
+                "speaker": 0,
+                "speaker_confidence": 0.70654297
+              },
+              {
+                "word": "again",
+                "start": 8.715,
+                "end": 8.995,
+                "confidence": 0.9740027,
+                "speaker": 0,
+                "speaker_confidence": 0.70654297
+              },
+              {
+                "word": "life",
+                "start": 10.295,
+                "end": 10.695,
+                "confidence": 0.989193,
+                "speaker": 0,
+                "speaker_confidence": 0.70654297
+              },
+              {
+                "word": "moves",
+                "start": 10.695,
+                "end": 11.014999,
+                "confidence": 0.99143434,
+                "speaker": 0,
+                "speaker_confidence": 0.70654297
+              },
+              {
+                "word": "pretty",
+                "start": 11.014999,
+                "end": 11.514999,
+                "confidence": 0.99734145,
+                "speaker": 0,
+                "speaker_confidence": 0.70654297
+              },
+              {
+                "word": "fast",
+                "start": 11.815,
+                "end": 12.135,
+                "confidence": 0.9968828,
+                "speaker": 0,
+                "speaker_confidence": 0.70654297
+              },
+              {
+                "word": "you",
+                "start": 12.135,
+                "end": 12.375,
+                "confidence": 0.92317045,
+                "speaker": 0,
+                "speaker_confidence": 0.70654297
+              },
+              {
+                "word": "don't",
+                "start": 12.375,
+                "end": 12.695,
+                "confidence": 0.99893296,
+                "speaker": 0,
+                "speaker_confidence": 0.70654297
+              },
+              {
+                "word": "stop",
+                "start": 12.695,
+                "end": 12.775,
+                "confidence": 0.9920551,
+                "speaker": 0,
+                "speaker_confidence": 0.6821289
+              },
+              {
+                "word": "and",
+                "start": 12.775,
+                "end": 13.014999,
+                "confidence": 0.99264574,
+                "speaker": 0,
+                "speaker_confidence": 0.6821289
+              },
+              {
+                "word": "look",
+                "start": 13.014999,
+                "end": 13.334999,
+                "confidence": 0.9964616,
+                "speaker": 0,
+                "speaker_confidence": 0.6821289
+              },
+              {
+                "word": "around",
+                "start": 13.334999,
+                "end": 13.575,
+                "confidence": 0.9955728,
+                "speaker": 0,
+                "speaker_confidence": 0.6821289
+              },
+              {
+                "word": "once",
+                "start": 13.575,
+                "end": 13.655,
+                "confidence": 0.98332363,
+                "speaker": 0,
+                "speaker_confidence": 0.6821289
+              },
+              {
+                "word": "in",
+                "start": 13.655,
+                "end": 13.815,
+                "confidence": 0.9910505,
+                "speaker": 0,
+                "speaker_confidence": 0.6821289
+              },
+              {
+                "word": "a",
+                "start": 13.815,
+                "end": 13.975,
+                "confidence": 0.97968173,
+                "speaker": 0,
+                "speaker_confidence": 0.6821289
+              },
+              {
+                "word": "while",
+                "start": 13.975,
+                "end": 14.475,
+                "confidence": 0.961885,
+                "speaker": 0,
+                "speaker_confidence": 0.6821289
+              },
+              {
+                "word": "you",
+                "start": 14.801312,
+                "end": 14.961312,
+                "confidence": 0.99058807,
+                "speaker": 0,
+                "speaker_confidence": 0.6821289
+              },
+              {
+                "word": "could",
+                "start": 14.961312,
+                "end": 15.461312,
+                "confidence": 0.9095507,
+                "speaker": 0,
+                "speaker_confidence": 0.6821289
+              },
+              {
+                "word": "miss",
+                "start": 15.461312,
+                "end": 15.561312,
+                "confidence": 0.7217077,
+                "speaker": 0,
+                "speaker_confidence": 0.4169922
+              },
+              {
+                "word": "it",
+                "start": 15.561312,
+                "end": 15.661312,
+                "confidence": 0.8641403,
+                "speaker": 0,
+                "speaker_confidence": 0.4169922
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

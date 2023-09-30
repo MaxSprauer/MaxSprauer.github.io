@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Copyright 2023 Max Sprauer -->
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Talking Head</title>
+    <link rel="stylesheet" href="canvas.css" />
+    <script src="constants.js"></script>
+    <script src="parse.js"></script>
+    <script src="animate.js"></script>
+  </head>
+  <body>
+    <div class="grid-container-element">
+      <div class="grid-child-element animation">
+        <canvas id="talking"></canvas>
+        <br />
+        <div id="currentWord"></div>
+        <br />
+        <div align="center">
+          <audio controls preload="auto">
+            <source
+              src="audio/Bueller-Life-moves-pretty-fast.wav"
+              type="audio/wav"
+            />
+          </audio>
+        </div>
+      </div>
+      <div class="grid-child-element description">
+        <h2>About this demo</h2>
+        <ul>
+          <li>
+            I used <a href="https://deepgram.com/">Deepgram AI</a> to generate
+            words and timestamps from an audio file as a json file.
+          </li>
+          <li>
+            I found some simple mouth animation artwork with a free license.
+            There are 8 unique frames representing different sounds.
+          </li>
+          <li>
+            Using the data from Deepgram, I divided each word into sounds
+            matching the facial expression images.
+          </li>
+          <li>
+            As the audio plays, the matching facial expression is displayed.
+          </li>
+          <li>
+            As you can see, the lip sync is not perfect, but not bad for a quick
+            demo!
+          </li>
+        </ul>
+        <footer>
+          <a
+            href="https://www.freepik.com/free-vector/kid-mouth-animation-different-facial-expressions_30701190.htm#query=mouth%20lip%20sync&position=20&from_view=keyword&track=ais"
+            >Image by upklyak</a
+          >
+          on Freepik
+          <br />
+          &copy; 2023 Max Sprauer
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
