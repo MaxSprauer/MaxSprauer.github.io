@@ -5,6 +5,10 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   width: 100%;
+  /* center vertically */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .grid-child-element {
