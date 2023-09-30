@@ -36,7 +36,6 @@ function drawFrame(timeStamp) {
 
     // Find the current frame to draw
     const frame = gFrames.findLast(
-      // (f) => f.offset * 1000.0 <= timeStamp - gStartTimeStamp
       (f) => f.offset + FUDGE_SEC <= getCurrentAudioTime()
     );
     draw(frame.frame);

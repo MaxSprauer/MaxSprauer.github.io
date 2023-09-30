@@ -41,18 +41,6 @@ function parseWords(words) {
     }
   }
 
-  console.log(sounds);
-
-  // const frames = [
-  //   { offset: 0, frame: "face_happy" },
-  //   { offset: 1.5, frame: "face_b_m_p" },
-  //   { offset: 1.8, frame: "face_ch_j_sh_g_k_c_d_n_s_t_x_y_z" },
-  //   { offset: 1.9, frame: "face_b_m_p" },
-  //   { offset: 2.2, frame: "face_th" },
-  //   { offset: 2.3, frame: "face_ch_j_sh_g_k_c_d_n_s_t_x_y_z" },
-  //   { offset: 2.4, frame: "face_th" },
-  // ];
-
   // Add frame before words are spoken
   frames.push({
     offset: 0.0,
